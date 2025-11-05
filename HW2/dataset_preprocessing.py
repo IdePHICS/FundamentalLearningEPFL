@@ -33,7 +33,7 @@ split_dataset = split_dataset.map(transform, batched=True)
 split_dataset.set_format(type='torch', columns=['image', 'label'])
 
 final_dataset = split_dataset.shuffle(seed=2203)
-split_dataset.save_to_disk('full_dataset.torchdataset')
+split_dataset.save_to_disk('data')
 
 # Step 6: save in numpy format X_train, y_train, X_test, y_test
 # Save the train and test sets as numpy arrays
