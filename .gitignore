@@ -218,3 +218,6 @@ poetry.toml
 pyrightconfig.json
 
 # End of https://www.toptal.com/developers/gitignore/api/macos,jupyternotebooks,python
+
+HW3_practice/data
+HW3_practice/tiny_net.pt
